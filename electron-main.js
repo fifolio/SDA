@@ -12,16 +12,19 @@ const store = new Store();
 let mainWindow;
 
 app.on('ready', () => {
+
   mainWindow = new BrowserWindow({
     width: 1920,
     height: 1080,
+    fullscreen: true, // Run in full screen by default
+    autoHideMenuBar: true, // Hide the menu bar
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       contextIsolation: true,
       enableRemoteModule: false,
       nodeIntegration: false,
     },
-    icon: path.join(__dirname, "assets", "icon.ico"),
+    icon: path.join(__dirname, 'assets', 'icon.ico'),
   });
 
   mainWindow.loadFile(path.join(__dirname, 'dist', 'index.html'));
@@ -39,5 +42,5 @@ ipcMain.handle('store-set', (event, key, value) => {
 
 // Handle store-delete IPC
 ipcMain.handle('store-delete', (event, key) => {
-  store.delete(key); 
+  store.delete(key);
 });
