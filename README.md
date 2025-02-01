@@ -8,7 +8,7 @@
   - 🛠️ Easy setup for quick deployment.  
 
 📖 **How to Use**  
-- 1️⃣ Download the application using the following link <a href="https://github.com/fifolio/SDA/releases/download/v1.0.0/SignCast_SDA_v1.0.0.zip" target="_blank">(Download Now)</a>.  
+- 1️⃣ Download the application using the following link <a href="https://github.com/fifolio/SDA/releases/download/v1.0.0/SignCast_SDA_v1.0.0.zip">(Download Now)</a>.  
 - 2️⃣ Unzip the file and follow the 📚 catalog included for step-by-step guidance.  
 - 3️⃣ Launch the application and 🌟 start showcasing your signages!  
 
